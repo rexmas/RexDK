@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176EEB9A19299485009D9B09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176EEB9919299485009D9B09 /* Foundation.framework */; };
+		176EEB9C19299485009D9B09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176EEB9B19299485009D9B09 /* CoreGraphics.framework */; };
+		176EEB9E19299485009D9B09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176EEB9D19299485009D9B09 /* UIKit.framework */; };
+		176EEBA419299485009D9B09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 176EEBA219299485009D9B09 /* InfoPlist.strings */; };
+		176EEBA619299485009D9B09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 176EEBA519299485009D9B09 /* main.m */; };
+		176EEBAA19299485009D9B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 176EEBA919299485009D9B09 /* AppDelegate.m */; };
+		176EEBAC19299485009D9B09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176EEBAB19299485009D9B09 /* Images.xcassets */; };
+		176EEBB319299485009D9B09 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176EEBB219299485009D9B09 /* XCTest.framework */; };
+		176EEBB419299485009D9B09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176EEB9919299485009D9B09 /* Foundation.framework */; };
+		176EEBB519299485009D9B09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176EEB9D19299485009D9B09 /* UIKit.framework */; };
+		176EEBBD19299485009D9B09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 176EEBBB19299485009D9B09 /* InfoPlist.strings */; };
+		176EEBBF19299485009D9B09 /* RexDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 176EEBBE19299485009D9B09 /* RexDKTests.m */; };
+		176EEBCB19299611009D9B09 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 176EEBCA19299611009D9B09 /* LICENSE */; };
+		176EEBCE19299650009D9B09 /* NSObject+RXRuntimeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 176EEBCD19299650009D9B09 /* NSObject+RXRuntimeAdditions.m */; };
+		176EEBD1192997CF009D9B09 /* UITextField+RXCursorless.m in Sources */ = {isa = PBXBuildFile; fileRef = 176EEBD0192997CF009D9B09 /* UITextField+RXCursorless.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		176EEBB619299485009D9B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 176EEB8E19299485009D9B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 176EEB9519299485009D9B09;
+			remoteInfo = RexDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		176EEB9619299485009D9B09 /* RexDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RexDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		176EEB9919299485009D9B09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		176EEB9B19299485009D9B09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		176EEB9D19299485009D9B09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		176EEBA119299485009D9B09 /* RexDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RexDK-Info.plist"; sourceTree = "<group>"; };
+		176EEBA319299485009D9B09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		176EEBA519299485009D9B09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		176EEBA719299485009D9B09 /* RexDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RexDK-Prefix.pch"; sourceTree = "<group>"; };
+		176EEBA819299485009D9B09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		176EEBA919299485009D9B09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		176EEBAB19299485009D9B09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		176EEBB119299485009D9B09 /* RexDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RexDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		176EEBB219299485009D9B09 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		176EEBBA19299485009D9B09 /* RexDKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RexDKTests-Info.plist"; sourceTree = "<group>"; };
+		176EEBBC19299485009D9B09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		176EEBBE19299485009D9B09 /* RexDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RexDKTests.m; sourceTree = "<group>"; };
+		176EEBCA19299611009D9B09 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		176EEBCC19299650009D9B09 /* NSObject+RXRuntimeAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RXRuntimeAdditions.h"; sourceTree = "<group>"; };
+		176EEBCD19299650009D9B09 /* NSObject+RXRuntimeAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RXRuntimeAdditions.m"; sourceTree = "<group>"; };
+		176EEBCF192997CF009D9B09 /* UITextField+RXCursorless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+RXCursorless.h"; sourceTree = "<group>"; };
+		176EEBD0192997CF009D9B09 /* UITextField+RXCursorless.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+RXCursorless.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		176EEB9319299485009D9B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176EEB9C19299485009D9B09 /* CoreGraphics.framework in Frameworks */,
+				176EEB9E19299485009D9B09 /* UIKit.framework in Frameworks */,
+				176EEB9A19299485009D9B09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176EEBAE19299485009D9B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176EEBB319299485009D9B09 /* XCTest.framework in Frameworks */,
+				176EEBB519299485009D9B09 /* UIKit.framework in Frameworks */,
+				176EEBB419299485009D9B09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		176EEB8D19299485009D9B09 = {
+			isa = PBXGroup;
+			children = (
+				176EEB9F19299485009D9B09 /* RexDK */,
+				176EEBB819299485009D9B09 /* RexDKTests */,
+				176EEB9819299485009D9B09 /* Frameworks */,
+				176EEB9719299485009D9B09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		176EEB9719299485009D9B09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				176EEB9619299485009D9B09 /* RexDK.app */,
+				176EEBB119299485009D9B09 /* RexDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		176EEB9819299485009D9B09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				176EEB9919299485009D9B09 /* Foundation.framework */,
+				176EEB9B19299485009D9B09 /* CoreGraphics.framework */,
+				176EEB9D19299485009D9B09 /* UIKit.framework */,
+				176EEBB219299485009D9B09 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		176EEB9F19299485009D9B09 /* RexDK */ = {
+			isa = PBXGroup;
+			children = (
+				176EEBC9192994E1009D9B09 /* Foundation */,
+				176EEBC8192994BA009D9B09 /* UI */,
+				176EEBA819299485009D9B09 /* AppDelegate.h */,
+				176EEBA919299485009D9B09 /* AppDelegate.m */,
+				176EEBAB19299485009D9B09 /* Images.xcassets */,
+				176EEBA019299485009D9B09 /* Supporting Files */,
+			);
+			path = RexDK;
+			sourceTree = "<group>";
+		};
+		176EEBA019299485009D9B09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				176EEBA119299485009D9B09 /* RexDK-Info.plist */,
+				176EEBA219299485009D9B09 /* InfoPlist.strings */,
+				176EEBA519299485009D9B09 /* main.m */,
+				176EEBA719299485009D9B09 /* RexDK-Prefix.pch */,
+				176EEBCA19299611009D9B09 /* LICENSE */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		176EEBB819299485009D9B09 /* RexDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				176EEBBE19299485009D9B09 /* RexDKTests.m */,
+				176EEBB919299485009D9B09 /* Supporting Files */,
+			);
+			path = RexDKTests;
+			sourceTree = "<group>";
+		};
+		176EEBB919299485009D9B09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				176EEBBA19299485009D9B09 /* RexDKTests-Info.plist */,
+				176EEBBB19299485009D9B09 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		176EEBC8192994BA009D9B09 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				176EEBCF192997CF009D9B09 /* UITextField+RXCursorless.h */,
+				176EEBD0192997CF009D9B09 /* UITextField+RXCursorless.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		176EEBC9192994E1009D9B09 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				176EEBCC19299650009D9B09 /* NSObject+RXRuntimeAdditions.h */,
+				176EEBCD19299650009D9B09 /* NSObject+RXRuntimeAdditions.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		176EEB9519299485009D9B09 /* RexDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176EEBC219299485009D9B09 /* Build configuration list for PBXNativeTarget "RexDK" */;
+			buildPhases = (
+				176EEB9219299485009D9B09 /* Sources */,
+				176EEB9319299485009D9B09 /* Frameworks */,
+				176EEB9419299485009D9B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RexDK;
+			productName = RexDK;
+			productReference = 176EEB9619299485009D9B09 /* RexDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		176EEBB019299485009D9B09 /* RexDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176EEBC519299485009D9B09 /* Build configuration list for PBXNativeTarget "RexDKTests" */;
+			buildPhases = (
+				176EEBAD19299485009D9B09 /* Sources */,
+				176EEBAE19299485009D9B09 /* Frameworks */,
+				176EEBAF19299485009D9B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				176EEBB719299485009D9B09 /* PBXTargetDependency */,
+			);
+			name = RexDKTests;
+			productName = RexDKTests;
+			productReference = 176EEBB119299485009D9B09 /* RexDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		176EEB8E19299485009D9B09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = RexDK;
+				TargetAttributes = {
+					176EEBB019299485009D9B09 = {
+						TestTargetID = 176EEB9519299485009D9B09;
+					};
+				};
+			};
+			buildConfigurationList = 176EEB9119299485009D9B09 /* Build configuration list for PBXProject "RexDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 176EEB8D19299485009D9B09;
+			productRefGroup = 176EEB9719299485009D9B09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				176EEB9519299485009D9B09 /* RexDK */,
+				176EEBB019299485009D9B09 /* RexDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		176EEB9419299485009D9B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176EEBCB19299611009D9B09 /* LICENSE in Resources */,
+				176EEBA419299485009D9B09 /* InfoPlist.strings in Resources */,
+				176EEBAC19299485009D9B09 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176EEBAF19299485009D9B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176EEBBD19299485009D9B09 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		176EEB9219299485009D9B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176EEBCE19299650009D9B09 /* NSObject+RXRuntimeAdditions.m in Sources */,
+				176EEBAA19299485009D9B09 /* AppDelegate.m in Sources */,
+				176EEBD1192997CF009D9B09 /* UITextField+RXCursorless.m in Sources */,
+				176EEBA619299485009D9B09 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176EEBAD19299485009D9B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176EEBBF19299485009D9B09 /* RexDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		176EEBB719299485009D9B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 176EEB9519299485009D9B09 /* RexDK */;
+			targetProxy = 176EEBB619299485009D9B09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		176EEBA219299485009D9B09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176EEBA319299485009D9B09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		176EEBBB19299485009D9B09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176EEBBC19299485009D9B09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		176EEBC019299485009D9B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		176EEBC119299485009D9B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		176EEBC319299485009D9B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RexDK/RexDK-Prefix.pch";
+				INFOPLIST_FILE = "RexDK/RexDK-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		176EEBC419299485009D9B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RexDK/RexDK-Prefix.pch";
+				INFOPLIST_FILE = "RexDK/RexDK-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		176EEBC619299485009D9B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RexDK.app/RexDK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RexDK/RexDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RexDKTests/RexDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		176EEBC719299485009D9B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RexDK.app/RexDK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RexDK/RexDK-Prefix.pch";
+				INFOPLIST_FILE = "RexDKTests/RexDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		176EEB9119299485009D9B09 /* Build configuration list for PBXProject "RexDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176EEBC019299485009D9B09 /* Debug */,
+				176EEBC119299485009D9B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176EEBC219299485009D9B09 /* Build configuration list for PBXNativeTarget "RexDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176EEBC319299485009D9B09 /* Debug */,
+				176EEBC419299485009D9B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		176EEBC519299485009D9B09 /* Build configuration list for PBXNativeTarget "RexDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176EEBC619299485009D9B09 /* Debug */,
+				176EEBC719299485009D9B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 176EEB8E19299485009D9B09 /* Project object */;
+}
